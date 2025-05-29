@@ -250,7 +250,7 @@ const HomeScene: React.FC<HomeSceneProps> = ({ onQuickPlay, onLevelSelect }) => 
                         <div className="font-semibold text-xl">Cyber Cat</div>
                         {!unlockedCharacters.includes('cat') && (
                           <div className="text-sm text-gray-400">
-                            Unlock at 1000 points in Endless Mode
+                            Unlock at 10000 points in Endless Mode
                           </div>
                         )}
                       </div>
