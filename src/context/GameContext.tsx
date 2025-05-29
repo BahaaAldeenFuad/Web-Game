@@ -130,7 +130,7 @@ export const GameProvider: React.FC<GameProviderProps> = ({ children }) => {
 
   const updateEndlessHighScore = (score: number) => {
     setEndlessHighScore(score);
-    if (score >= 1000 && !unlockedCharacters.includes('cat')) {
+    if (score >= 10000 && !unlockedCharacters.includes('cat')) {
       setUnlockedCharacters(prev => [...prev, 'cat']);
     }
   };
