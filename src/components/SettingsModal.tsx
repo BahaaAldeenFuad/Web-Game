@@ -133,7 +133,7 @@ const SettingsModal: React.FC<SettingsModalProps> = ({ onClose }) => {
                   </ul>
                   {!unlockedCharacters.includes('cat') && (
                     <p className="mt-1 text-secondary">
-                      Score 1000+ in endless mode to unlock!
+                      Score 10000+ in endless mode to unlock!
                     </p>
                   )}
                 </div>
